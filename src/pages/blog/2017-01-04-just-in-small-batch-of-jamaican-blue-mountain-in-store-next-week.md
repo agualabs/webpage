@@ -1,6 +1,6 @@
 ---
 templateKey: blog-post
-title: Starting a company in Germany
+title: Starting a company in Germany hallao anabell
 date: 2017-01-04T15:04:10.000Z
 description: This is a quick guide how to start a company in germany
 tags:
