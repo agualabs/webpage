@@ -40,8 +40,8 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         ),
         // additional data can be passed via context
         context: {
-          id,
-        },
+          id
+        }
       })
     })
 
@@ -64,8 +64,8 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
         path: tagPath,
         component: path.resolve(`src/templates/tags.js`),
         context: {
-          tag,
-        },
+          tag
+        }
       })
     })
   })
@@ -79,7 +79,7 @@ exports.onCreateNode = ({ node, boundActionCreators, getNode }) => {
     createNodeField({
       name: `slug`,
       node,
-      value,
+      value
     })
   }
 }
