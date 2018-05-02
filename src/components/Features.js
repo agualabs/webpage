@@ -9,6 +9,7 @@ const FeatureGrid = ({ gridItems }) => (
           <p className='has-text-centered'>
             <img alt='' src={item.image} />
           </p>
+          <p><h2>{item.header}</h2></p>
           <p>{item.text}</p>
         </section>
       </div>
@@ -20,7 +21,8 @@ FeatureGrid.propTypes = {
   gridItems: PropTypes.arrayOf(
     PropTypes.shape({
       image: PropTypes.string,
-      text: PropTypes.string
+      text: PropTypes.string,
+      header: PropTypes.string
     })
   )
 }

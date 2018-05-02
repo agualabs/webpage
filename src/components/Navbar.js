@@ -1,41 +1,62 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import github from '../img/github-icon.svg'
 import logo from '../img/agualabs_boat.png'
+import typo from '../img/agualabs_typo.png'
+import AppBar from 'material-ui/AppBar'
+import Toolbar from 'material-ui/Toolbar'
+import Button from 'material-ui/Button'
+import { withStyles } from 'material-ui/styles'
 
-const Navbar = () => (
-  <nav className='navbar is-transparent'>
-    <div className='container'>
-      <div className='navbar-brand'>
-        <Link to='/' className='navbar-item'>
-          <figure className='image'>
-            <img src={logo} alt='Agualabs' style={{ width: '88px' }} />
+const styles = {
+  root: {
+    flexGrow: 1
+  },
+  flex: {
+    flex: 1
+  },
+  menuButton: {
+    marginLeft: -12,
+    marginRight: 20
+  },
+  image_logo: {
+    height: 30
+  },
+  image_typo: {
+    height: 20,
+    marginLeft: 20
+  }
+}
+
+const Navbar = ({
+  classes
+}) => (
+  <div className={classes.root}>
+    <AppBar position='sticky' color='inherit'>
+      <Toolbar>
+        <Link to='/'>
+          <figure>
+            <img src={logo} alt='AguaLabs Logo' className={classes.image_logo} />
           </figure>
         </Link>
-      </div>
-      <div className='navbar-start'>
-        <Link className='navbar-item' to='/about'>
-          Imprint
+        <Link to='/' className={classes.flex}>
+          <figure>
+            <img src={typo} alt='AguaLabs Typography' className={classes.image_typo} />
+          </figure>
         </Link>
-        <Link className='navbar-item' to='/products'>
-          Services
-        </Link>
-      </div>
-      <div className='navbar-end'>
-        <a
-          className='navbar-item'
-          href='https://github.com/agualabs/webpage.git'
-          target='_blank'
-          rel='noopener noreferrer'
-        >
-          <span className='icon'>
-            <img src={github} alt='Github' />
-          </span>
-        </a>
-      </div>
-    </div>
-  </nav>
+        <Button>
+          <Link to='/products'>
+            Services
+          </Link>
+        </Button>
+        <Button color='primary'>
+          <Link to='/about'>
+            Imprint
+          </Link>
+        </Button>
+      </Toolbar>
+    </AppBar>
+  </div>
 )
 
-export default Navbar
+export default withStyles(styles)(Navbar)

@@ -168,6 +168,7 @@ export const productPageQuery = graphql`
         intro {
           blurbs {
             image
+            header
             text
           }
           heading
