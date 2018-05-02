@@ -1,0 +1,28 @@
+{
+    "editor.renderWhitespace": "all",
+    "git.enableSmartCommit": true,
+    "workbench.editor.showTabs": false,
+    "editor.tabSize": 2,
+    "extensions.ignoreRecommendations": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontSize": 11,
+    "window.zoomLevel": 1,
+    "gitlens.advanced.messages": {
+        "suppressCommitHasNoPreviousCommitWarning": false,
+        "suppressCommitNotFoundWarning": false,
+        "suppressFileNotUnderSourceControlWarning": false,
+        "suppressGitVersionWarning": false,
+        "suppressLineUncommittedWarning": false,
+        "suppressNoRepositoryWarning": false,
+        "suppressResultsExplorerNotice": false,
+        "suppressShowKeyBindingsNotice": true,
+        "suppressUpdateNotice": true,
+        "suppressWelcomeNotice": true
+    },
+    "terminal.integrated.fontFamily": "'Source Code Pro for Powerline'",
+    "git.autofetch": true,
+    "workbench.settings.openDefaultSettings": true,
+    "files.autoSave": "onFocusChange",
+    "gitlens.keymap": "alternate",
+    "explorer.confirmDragAndDrop": false
+}
