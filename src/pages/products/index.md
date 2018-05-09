@@ -1,7 +1,7 @@
 ---
 templateKey: product-page
 title: Our Services
-image: /img/daria-shevtsova-411553-unsplash.jpg
+image: /img/daria-shevtsova-411553-unsplash_2.png
 heading: Enabling people.
 description: >-
   Our team from AguaLabs enables you to deliver better services and better
