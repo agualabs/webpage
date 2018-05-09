@@ -10,6 +10,7 @@ description: >-
 intro:
   blurbs:
     - image: /img/simplicity.png
+      header: Simplicity, clarity & transparency
       text: >
         Simplicity and effectiveness is key of any sustainable solution, be it
         digital or analog. Simplicity, transparency and clarity of thought
@@ -17,6 +18,7 @@ intro:
         maintain, document, teach shrink immensly. Scalibility is more likely in
         a simple setting.
     - image: /img/constant_learning.png
+      header: Open mindset & constant learning
       text: >
         Lean startup principles, agility and scrum methodology put rapid
         learning and product cycles first. Challenging your beliefs is a
@@ -24,6 +26,7 @@ intro:
         data pipelines, A/B tests, metrics and KPIs need to be actionable and
         straight forward to understand.
     - image: /img/ownership.jpg
+      header: Focus on results and value
       text: >
         Anything created should have the intend to deliver more value than there
         was before. The internet is full of spam. We believe in earning our
@@ -32,16 +35,19 @@ intro:
         very aware of these common traps and put product and value creation
         first.
     - image: /img/results_value.png
+      header: Speed, flexibility and quality
       text: >
         Better understanding of the customer can only result in better products
         if the new learnings are implemented. This requires a scalabe and
         maintanable IT architecture with continuous integration and development.
         Automated tests guarantee quality and inforce trust in the processes.
     - image: /img/speed_quality.png
+      header: Passion, accountability and ownership
       text: >
         We believe that each party involved in the creation of a product needs
         to invest themself seriously.
     - image: /img/win_win.png
+      header: Win-win relations only
       text: >
         Life is too short to work with peoples you do not share common values
         with. Relations should benefit all parties involved. Initially parties
