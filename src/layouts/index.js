@@ -9,7 +9,10 @@ import theme from './theme.js'
 
 const TemplateWrapper = ({ children }) => (
   <div>
-    <Helmet title='AguaLabs GmbH' />
+    <Helmet>
+      <title>AguaLabs GmbH</title>
+      <meta property="fb:app_id" content="1944656805564650" />
+    </Helmet>
     <MuiThemeProvider theme={theme}>
       <Navbar />
       <div>{children()}</div>
