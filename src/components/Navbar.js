@@ -1,8 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
 
-import logo from '../img/agualabs_boat.png'
-import typo from '../img/agualabs_typo.png'
+import logo from '../img/augualabs_boat.svg'
+import typo from '../img/augualabs_typo.svg'
 import AppBar from 'material-ui/AppBar'
 import Toolbar from 'material-ui/Toolbar'
 import Button from 'material-ui/Button'
